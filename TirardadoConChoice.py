@@ -1,7 +1,7 @@
 #Tirar un dado
 from random import randint, choice
 
-def imprimir_dado():
+def tirar_dado():
     dado = [
                 ["◙◙◙◙◙◙◙",
                  "◙     ◙",
@@ -39,5 +39,5 @@ def imprimir_dado():
         print(cara)
 
 while (True):
-    imprimir_dado()
+    tirar_dado()
     if (input("Otra tirada <ENTER> Salir con s:") == 's'): break
